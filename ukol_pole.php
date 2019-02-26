@@ -1,8 +1,9 @@
 <?php
     $titulek = 'Uživatelský profil';
-    $profil = ['jmeno' =>'a', 'prijmeni' => 'z'];
-    $profil = ['konicek' => 'programovani'];
-    $konicek = [''];
+    $profil = ['jmeno' => 'altynay', 'prijmeni' => 'zhakupova'];
+    $profil ['vek'] = 27;
+    $profil ['konicek'] = ['programovani'];
+    $profil ['konicek'] [] = 'rybareni';
     ?>
 
 <!doctype html>
@@ -67,7 +68,27 @@
 
             ?>
         </h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+
+        <table class="table">
+            <tbody>
+            <tr>
+                <th>Jméno:</th>
+                <td><?php echo $profil['jmeno'];?></td>
+            </tr>
+            <tr>
+                <th>Příjmení:</th>
+                <td><?php echo $profil['prijmeni'];?></td>
+            </tr>
+            <tr>
+                <th>Věk:</th>
+                <td><?php echo $profil['vek'];?></td>
+            </tr>
+            <tr>
+                <th>Koníčky:</th>
+                <td><?php print_r($profil['konicek']);?></td>
+            </tr>
+            </tbody>
+        </table>
     </div>
 
 </main><!-- /.container -->
