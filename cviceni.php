@@ -1,7 +1,5 @@
-<h1>Altynay:</h1><?php echo '<h1>Altynay!</h1>'; ?>
+<?php echo 'Altynay!';
 
-<p>Odstavec 2</p>
-<?php
 /**
  * Created by PhpStorm.
  * User: zhakupovaa

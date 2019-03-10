@@ -1,5 +1,5 @@
 <?php
-$poradi = '5';
+$poradi = 5;
 $jmeno = 'Novak';
 echo "Pořádí: $poradi, Jméno: $jmeno";
 echo '<br/>';

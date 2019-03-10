@@ -3,5 +3,5 @@ body {
 }
 
 body {
-    height: 50px;
+    height: min-content;
 }
